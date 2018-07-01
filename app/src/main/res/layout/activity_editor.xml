@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical"
+    tools:context=".EditorActivity">
+
+    <EditText
+        android:id="@+id/title_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/edit_text_horizontal_margin"
+        android:layout_marginRight="@dimen/edit_text_horizontal_margin"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/enter_title"
+        android:inputType="textCapSentences"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorHintText"
+        tools:hint="@string/edit_text_hint"
+        tools:text="@string/edit_text_message" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/view_horizontal_margin"
+        android:layout_marginRight="@dimen/edit_text_horizontal_margin"
+        android:background="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/memo_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/edit_text_horizontal"
+        android:layout_marginRight="@dimen/edit_text_horizontal"
+        android:layout_marginTop="@dimen/edit_text_vertical"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:gravity="top|left"
+        android:hint="@string/enter_memo"
+        android:inputType="textCapSentences|textMultiLine"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorHintText"
+        tools:hint="Enter memo"
+        tools:text="Enter memo" />
+
+</LinearLayout>
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">JournalApp</string>
+    <string name="delete_all_entries">Delete All entries</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="add_your_first_story">Add Your First Story</string>
+    <string name="enter_title">Enter title</string>
+    <string name="edit_text_hint">Enter title</string>
+    <string name="edit_text_message">Enter title</string>
+    <string name="enter_memo">Enter memo</string>
+    <string name="doowijournal">DoowiJournal</string>
+    <string name="login_to_our_app">Login to our app</string>
+    <string name="save_memo">Save Memo</string>
+    <string name="delete_memo">Delete Memo</string>
+
+
+</resources>

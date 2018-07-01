@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical_padding">16dp</dimen>
+    <dimen name="margin_size">16dp</dimen>
+    <dimen name="edit_text_horizontal_margin">32dp</dimen>
+    <dimen name="view_horizontal_margin">25dp</dimen>
+    <dimen name="edit_text_horizontal">32dp</dimen>
+    <dimen name="edit_text_vertical">8dp</dimen>
+</resources>
